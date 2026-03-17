@@ -1,4 +1,4 @@
-package forLoopsAndArrays;  
+  
 
 import java.util.*; 
 
@@ -24,7 +24,8 @@ public class javaNotes1 {
             System.out.println(obj.getString()); // print each object's string name
         }
         System.out.println("---");
-        for(Object obj : objects) {
+
+        for(Object obj : objects) { // with overriden toString method, this prints out the object's information
             System.out.println(obj);
         }
          // for loops
